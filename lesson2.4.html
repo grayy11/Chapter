@@ -1,0 +1,265 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SUBNETTING METHOD</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-fixed-top custom-navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">CHAPTER 3</a>
+        </div>
+        
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Overview</a></li>
+  
+                   
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson1.html">Network Cable Types</a></li>
+                            <li><a href="lesson1.2.html">Cable Raceway</a></li>
+                            <li><a href="lesson1.3.html"> OH&S standards and 5s principles 
+                                <li><a href="lesson1.4.html">Step-by-step procedure</a></li>
+    
+                            </a></li>
+    
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 2 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson2.html">Set Network Configuration</a></li>
+                            <li><a href="lesson2.2.html">Computer Network</a></li>
+                            <li><a href="lesson2.3.html">IP Addressing</a></li>
+                            <li><a href="lesson2.4.html">Subnetting</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 3 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson3.html">Set Router</a></li>
+                            <li><a href="lesson3.1.html">Configure Device Ports</a></li>
+                            <li><a href="lesson3.2.html">Router and WAP Configuration</a></li>
+                            <li><a href="lesson3.3.html">Apply Security and Advance Settings</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">lesson 4 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson4.html">Inspect and Test the Configured mComputer Networks</a></li>
+                            <li><a href="lesson4.1.html">Final Inspection</a></li>
+                            <li><a href="lesson4.2.html">safety Checks</a></li>
+                            <li><a href="lesson4.3.html">Performance Testing</a></li>
+  
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <section class="first-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content">
+                        <h2>SUBNETTING METHOD</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="network-setup">
+            <h2><b>LESSON 2: Finger Subnetting Method</b></h2>
+            <br>
+            <p><b>Subnetting</b> is a fundamental concept in networking, allowing efficient IP address allocation and improved network performance. The Finger Subnetting Method is a fast and easy technique that helps in subnet calculations without relying on complex tables or memorization. This module will guide you through the method, ensuring you can apply it effectively in real-world networking scenarios.</p>
+    
+            <div class="section">
+                <img src="img/networks.jpg" alt="Network Cabling" />
+                <div class="content">
+                    <h2>What is Subnet?</h2>
+                    <p>
+                        Subnetting is the process of dividing a network into smaller chunks, or subnetworks. It derives that a subnet, which is an abbreviation for “subnetwork”, is a portion of a larger IP network.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Additional Section -->
+        <div class="network-setup">
+            <h2>Key Components of Subnetting</h2>
+        </div>
+    
+        <div class="section reverse">
+            <div class="content">
+                <ul class="text-left">
+                    <li><b>IP Address:</b><br> A unique identifier for devices in a network (e.g., 192.168.1.1).</li><br>
+                    <li><b>Subnet Mask:</b><br> A 32-bit value that determines which part of the IP address is the network and which part is the host.</li><br>
+                    <li><b>CIDR Notation:</b><br> A shorthand way of representing subnet masks (e.g., /24 for 255.255.255.0).</li><br>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="network-setup">
+            <h2>Finger Subnetting Method:</h2>
+            <p>The Finger Subnetting Method is a shortcut technique that uses fingers to count and determine subnet values quickly. Instead of relying on tables or calculations, you use your fingers to keep track of subnet blocks.</p>
+            <br>
+            <p><b>Step-by-Step Guide on Using Your Fingers for Subnetting</b></p>
+            <br>
+            <p><b>Step 1: Use Your Fingers to Count Subnets</b><br>
+                Each finger represents a power of 2, which helps in counting subnet blocks:<br><br>
+                Thumb: 128<br>
+                Index Finger: 64<br>
+                Middle Finger: 32<br>
+                Ring Finger: 16<br>
+                Pinky Finger: 8<br><br>
+                Example: For a /26 subnet, count two fingers starting from 128 → 64. This means the subnet block size is 64.
+            </p>
+            <br>
+    
+            <p><b>Step 2: Finding the Network ID</b><br>
+                Start with a given IP (e.g., 192.168.1.0). Use the finger-counted block size (e.g., /26 → block size = 64).<br>
+                The next network ID starts at 192.168.1.64, then 192.168.1.128, and so on.
+            </p>
+            <br>
+    
+            <p><b>Step 3: Finding the Broadcast Address</b><br>
+                Subtract 1 from the next network ID.<br><br>
+                Example: For a 192.168.1.0/26 subnet, the next network starts at 192.168.1.64, so the broadcast address is 192.168.1.63.
+            </p>
+            <br>
+    
+            <p><b>Step 4: Finding Usable IPs</b><br>
+                The first usable IP is Network ID + 1.<br>
+                The last usable IP is Broadcast Address - 1.
+            </p>
+            <br><br>
+    
+            <p><b>Why Use the Finger Subnetting Method?</b><br>
+                - Faster calculations in exams and real-world tasks.<br>
+                - No need to memorize subnet tables.<br>
+                - Reduces the chances of miscalculations.<br>
+                - Allows quick subnetting solutions during time-pressured test scenarios.<br>
+                - Useful for troubleshooting and designing networks without relying on subnet calculators.<br>
+            </p>
+            <br>
+    
+            <p>You can also watch this video to learn more about the Finger Subnetting Method:</p>
+            <div class="col-md-12 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mjMuTCiriEI" allowfullscreen></iframe>
+                </div>
+                <br>
+            </div>
+    
+            <div class="col-md-12 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/e9m4EHBc7YE" allowfullscreen></iframe>
+                </div>
+                <br>
+            </div>
+            </div>
+        </div>
+    
+        <div class="Setup_networks">
+            <br><br><br>
+            <h2>Binary To Decimal</h2>
+            <p>Have you ever wondered how computers understand numbers? Unlike us, who use the decimal system (0-9), computers use only 0s and 1s, which is called the binary system.</p>
+    
+            <p>Here, we are going to learn how to convert a binary number into a decimal number. Let’s first understand what a binary system is.</p>
+    
+            <p><b>Understanding the Binary System</b><br>
+                The Binary Number System uses two digits, 0 and 1, and is the foundation for all modern computing. The word "binary" is derived from the word “bi,” which means two. But what makes it so essential, and how does it work?<br><br>
+                There are generally various types of number systems, but we are going to focus on the binary system.
+            </p>
+        </div>
+    
+        <table border="1">
+            <caption><b>Binary Number Table</b></caption>
+            <tr>
+                <th>Decimal Number</th>
+                <th>Binary Number</th>
+                <th>Decimal Number</th>
+                <th>Binary Number</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>001</td>
+                <td>6</td>
+                <td>110</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>010</td>
+                <td>7</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>011</td>
+                <td>8</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>100</td>
+                <td>9</td>
+                <td>1001</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>101</td>
+                <td>10</td>
+                <td>1010</td>
+            </tr>
+        </table>
+        
+        </div>
+    </section>
+    
+ <ul class="pagination">
+            <li><a href="#" id="prevPage">⬅</a></li>
+            <li><a href="lesson2.html">0</a></li>
+            <li><a href="lesson2.2.html">1</a></li>
+            <li><a href="L2_practice.html">2</a></li>
+            <li><a href="lesson2.3.html">3</a></li>
+            <li><a href="lesson2.4.html">5</a></li>
+            <li><a href="L2.2_practice.html">6</a></li>
+            <li><a href="#" id="nextPage">➡</a></li>
+        </ul>
+    <footer>
+        <div class="container"></div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Performance testing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+
+      <!-- Navigation Bar -->
+    <nav class="navbar navbar-fixed-top custom-navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">CHAPTER 3</a>
+        </div>
+        
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Overview</a></li>
+  
+                   
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson1.html">Network Cable Types</a></li>
+                            <li><a href="lesson1.2.html">Cable Raceway</a></li>
+                            <li><a href="lesson1.3.html"> OH&S standards and 5s principles 
+                                <li><a href="lesson1.4.html">Step-by-step procedure</a></li>
+    
+                            </a></li>
+    
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 2 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson2.html">Set Network Configuration</a></li>
+                            <li><a href="lesson2.2.html">Computer Network</a></li>
+                            <li><a href="lesson2.3.html">IP Addressing</a></li>
+                            <li><a href="lesson2.4.html">Subnetting</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 3 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson3.html">Set Router</a></li>
+                            <li><a href="lesson3.1.html">Configure Device Ports</a></li>
+                            <li><a href="lesson3.2.html">Router and WAP Configuration</a></li>
+                            <li><a href="lesson3.3.html">Apply Security and Advance Settings</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">lesson 4 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson4.html">Inspect and Test the Configured mComputer Networks</a></li>
+                            <li><a href="lesson4.1.html">Final Inspection</a></li>
+                            <li><a href="lesson4.2.html">safety Checks</a></li>
+                            <li><a href="lesson4.3.html">Performance Testing</a></li>
+  
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Lesson Header -->
+        <section class="first-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-content">
+                            <h2>Performance testing</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lesson Content -->
+        <section class="container">
+            <div class="network-setup">
+                <h2><b>Testing Network Performance</b></h2>
+        <p>So as we wrap up this chapter, we need ideally to have insight into how to assess network performance properly. Testing validates that the network is performing optimally and according to expectations. Using tools such as Ping, Traceroute, and Speed Test enables you to diagnose problems and ensure dependable connectivity. Such documentation and reporting of findings will provide support for ongoing network management and troubleshooting. In this last lesson, we will guide you through the critical parts that will safeguard and improve your network's reliability.</p>
+       
+        <h4>Step-by-Step Guide:</h4>
+
+        <h3>Step 1: Perform a Ping Test</h3>
+        <p><strong>Goal:</strong> Check if a device is reachable and measure response time.</p>
+        <ul>
+            <li><strong>Inspect Network Device:</strong> Open <strong>Command Prompt</strong> (Windows) or <strong>Terminal</strong> (Mac/Linux).</li>
+            <li>Type the following command:</li>
+            <ul>
+                <li><code>ping [IP address or website]</code></li>
+                <li>Example: <code>ping google.com</code></li>
+            </ul>
+            <li>Press Enter.</li>
+            <li>Review the results:</li>
+            <ul>
+                <li><strong>Low time (ms)</strong> means a fast response.</li>
+                <li><strong>High time or no response</strong> may indicate network issues.</li>
+            </ul>
+        </ul>
+
+        <h3>Step 2: Run a Traceroute Test</h3>
+        <p><strong>Goal:</strong> Identify the path data takes across the network and detect any delays.</p>
+        <ul>
+            <li>Open <strong>Command Prompt</strong> or <strong>Terminal</strong>.</li>
+            <li>Type the following command:</li>
+            <ul>
+                <li><strong>On Windows:</strong> <code>tracert [IP address or website]</code></li>
+                <li>Example: <code>tracert google.com</code></li>
+            </ul>
+            <ul>
+                <li><strong>On Mac/Linux:</strong> <code>traceroute [IP address or website]</code></li>
+                <li>Example: <code>traceroute google.com</code></li>
+            </ul>
+            <li>Press Enter.</li>
+            <li>Analyze the route and note if any specific hops (routers) are causing slowdowns.</li>
+        </ul>
+
+        <h3>Step 3: Conduct a Speed Test</h3>
+        <p><strong>Goal:</strong> Measure upload and download speeds to ensure they meet expectations.</p>
+        <ul>
+            <li>Visit a reliable speed test website like <a href="https://www.speedtest.net/" target="_blank">Speedtest by Ookla</a>.</li>
+            <li>Click Start Test.</li>
+            <li>Wait for the results to show your Download Speed, Upload Speed, and Ping.</li>
+            <li>Compare the results to your expected internet plan speeds.</li>
+        </ul>
+
+        <h3>Step 4: Conduct Connectivity Testing</h3>
+        <p><strong>Goal:</strong> Ensure all devices are connected and can access the internet.</p>
+        <ul>
+            <li>Verify devices are connected to the network (Wi-Fi or Ethernet).</li>
+            <li>Try accessing multiple websites or online applications.</li>
+            <li>Check internal connectivity by pinging another device using its IP address:</li>
+            <ul>
+                <li><code>ping [device IP address]</code></li>
+            </ul>
+            <li>Ensure all devices communicate effectively within the network.</li>
+        </ul>
+
+        <h3>Documentation and Reporting</h3>
+        <p>After testing, keeping detailed records is important for future troubleshooting and network management.</p>
+        
+        <h4>Here’s what to document:</h4>
+        <ul>
+            <li><strong>Record Inspection Results:</strong>
+                <ul>
+                    <li>Log all findings from the tests, including issues found and actions taken.</li>
+                    <li>Helps track network performance over time.</li>
+                </ul>
+            </li>
+            <li><strong>Report Problems:</strong>
+                <ul>
+                    <li>Inform the network administrator or IT team about any hardware failures, slow speeds, or security risks.</li>
+                    <li>Quick reporting means faster solutions.</li>
+                </ul>
+            </li>
+            <li><strong>Schedule Regular Maintenance:</strong>
+                <ul>
+                    <li>Set a schedule to test network performance at regular intervals.</li>
+                    <li>Prevents potential problems before they affect users.</li>
+                </ul>
+            </li>
+            <li><strong>Keep Backup Records:</strong>
+                <ul>
+                    <li>Save copies of network configurations, test results, and previous reports.</li>
+                    <li>Useful when diagnosing future issues or during audits.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>By following these steps, the network remains reliable, secure, and fast for all users.</p>
+            </div>
+        </section>
+        
+       <!-- Pagination -->
+       <ul class="pagination">
+        <li><a href="#" id="prevPage">⬅</a></li>
+        <li><a href="lesson4.html">0</a></li>
+        <li><a href="lesson4.1.html">1</a></li>
+        <li><a href="L4_practice.html">2</a></li>
+        <li><a href="lesson4.2.html">3</a></li>
+        <li><a href="L4.1_practice.html">4</a></li>
+        <li><a href="lesson4.3.html">5</a></li>
+        <li><a href="L4.2_practice.html">6</a></li>
+        <li><a href="#" id="nextPage">➡</a></li>
+    </ul>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container"></div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+           
+        </script>
+    </body>
+</html>

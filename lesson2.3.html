@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>IP ADDRESS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-fixed-top custom-navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">CHAPTER 3</a>
+        </div>
+        
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Overview</a></li>
+  
+                   
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson1.html">Network Cable Types</a></li>
+                            <li><a href="lesson1.2.html">Cable Raceway</a></li>
+                            <li><a href="lesson1.3.html"> OH&S standards and 5s principles 
+                                <li><a href="lesson1.4.html">Step-by-step procedure</a></li>
+    
+                            </a></li>
+    
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 2 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson2.html">Set Network Configuration</a></li>
+                            <li><a href="lesson2.2.html">Computer Network</a></li>
+                            <li><a href="lesson2.3.html">IP Addressing</a></li>
+                            <li><a href="lesson2.4.html">Subnetting</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lesson 3 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson3.html">Set Router</a></li>
+                            <li><a href="lesson3.1.html">Configure Device Ports</a></li>
+                            <li><a href="lesson3.2.html">Router and WAP Configuration</a></li>
+                            <li><a href="lesson3.3.html">Apply Security and Advance Settings</a></li>
+                        </ul>
+                    </li> <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">lesson 4 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lesson4.html">Inspect and Test the Configured mComputer Networks</a></li>
+                            <li><a href="lesson4.1.html">Final Inspection</a></li>
+                            <li><a href="lesson4.2.html">safety Checks</a></li>
+                            <li><a href="lesson4.3.html">Performance Testing</a></li>
+  
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <section class="first-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content">
+                        <h2>IP ADDRESS</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="network-setup">
+            <h2><b>LESSON 2.2  IP Addressing</b></h2>
+            <br>
+            <p>An IP address, or Internet Protocol address, is a unique string of numbers assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves as an identifier that allows devices to send and receive data over the network, ensuring that this data reaches the correct destination.</p>
+            <br><b>Parts of an IP Address:</b><br>
+            <br>Host Address<br>Network Address
+            </p>
+        </div> 
+        <br>
+        
+        <b>A. IPv4 and IPv6</b><br>
+        <p>IP addresses can be classified in several ways based on their structure, purpose, and the type of network they are used in.</p>
+        <p><b>IPv4 (IP version 4):</b> It is the current version of IP addresses (not for long). It is a <b>32-bit</b> numeric address written as four numbers separated by periods.</p>
+        <p>Example: 66 . 94 . 234 . 13</p>
+        <p>Each group of numbers separated by periods is called an <b>octet</b> (66 - octet, 94 - octet, 234 - octet, 13 - octet). Number ranges from 0-255, and it can produce 4 billion possible unique addresses.</p>
+        <p>Computers and networks don’t read IP addresses in numeric format; they only understand numbers in binary format (1’s and 0’s).</p>
+        <p>For example: <br>
+            66 = 01000010 <br>
+            94 = 01011110 <br>
+            234 = 11101010 <br>
+            13 = 00001101 <br>
+        </p>
+
+        <p>66 . 94 . 234 . 13 = 01000010 . 01011110 . 11101010 . 00001101</p>
+        
+        <p>Remember, byte is the singular form of bits. So:<br>
+            1 Byte = 8 bits</p>
+
+        <p>Watch this video for further explanation:</p>
+        <div class="col-md-12 text-center">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ThdO9beHhpA?start=109" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="network-setup">
+                <p><b>B. IPv6 (IP version 6)</b><br>
+                    It is the next generation of IP addresses. It is a <b>128-bit</b> hexadecimal address using both numbers and alphabets. With this version, it can produce over 340 undecillion addresses, more than enough for the foreseeable future.
+                    <br>Example: 76DC : 4F59 : 71CD : 9DC6 : 45CD : 67A2
+                    <br>In version 6, each hexadecimal character represents 4 bits.
+                </p>
+            </div>
+        </section>
+
+        <div class="col-md-12 text-center">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ThdO9beHhpA?start=341" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <h2>IP Address Classes</h2>
+        <p>These IP addresses can further be broken down into classes. These classes are A, B, C, D, and E, and their possible ranges can be seen in the table below.</p>
+
+        <div class="section">
+            <div class="image-container">
+                <h2>Surface-Mounted Raceway</h2>
+                <p>These are mounted directly onto the wall or surface, and they are typically used for retrofit applications where wires need to be added after construction.</p>
+                <br>
+                <p>If you are on a home/office private network and want to use TCP/IP, you should assign your computers/devices IP addresses from one of these three ranges. That way, your router/firewall would be the only device with a true IP address, making your network more secure.</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <table border="1" style="border-collapse: collapse; text-align: left;">
+                    <tr>
+                        <th>Class</th>
+                        <th>Private Start Address</th>
+                        <th>Private End Address</th>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>10.0.0.0</td>
+                        <td>10.255.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>172.16.0.0</td>
+                        <td>172.31.255.255</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>192.168.0.0</td>
+                        <td>192.168.255.255</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+
+        <ul class="pagination">
+            <li><a href="#" id="prevPage">⬅</a></li>
+            <li><a href="lesson2.html">0</a></li>
+            <li><a href="lesson2.2.html">1</a></li>
+            <li><a href="L2_practice.html">2</a></li>
+            <li><a href="lesson2.3.html">3</a></li>
+            <li><a href="lesson2.4.html">5</a></li>
+            <li><a href="L2.2_practice.html">5</a></li>
+            <li><a href="#" id="nextPage">➡</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="container"></div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
